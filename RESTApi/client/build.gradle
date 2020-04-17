@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group 'rest-api'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+    flatDir {
+        //include all *.jar files from local "lib" directory (e.g., serviceModel.jar)
+        dirs 'lib'
+    }
+}
+
+dependencies {
+    compile files(fileTree(dir: 'lib', includes: ['*.jar']))
+    compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.29.1'
+    compile group: 'org.glassfish.jersey.bundles', name: 'jaxrs-ri', version: '2.29.1'
+}
+
+
+
+run {
+    standardInput = System.in
+}
+
+jar {
+    archiveFileName = 'client.jar'
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+void run(Closure<InputStream> inputStreamClosure) {
+
+}

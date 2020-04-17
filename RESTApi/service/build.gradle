@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'rest-api'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet
+    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet', version: '2.29.1'
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.bundles/jaxrs-ri
+    compile group: 'org.glassfish.jersey.bundles', name: 'jaxrs-ri', version: '2.29.1'
+}
+
+
+war{
+    archiveName("superMarket.war")
+}
+
+// create serviceModel.jar in directory /service/build/libs/
+// with /rest/model/service/Student.class
+task createModelJar(type: Jar, dependsOn: compileJava) {
+    archiveFileName = "serviceModel.jar"
+    def task = from sourceSets.main.output
+    task
+    include "service/model/*"
+    println "created serviceModel.jar from service/model/*.class"
+}
+
+// assuming modules are in directories “project/service/” and “project/client/”
+// copy “service/build/libs/serviceModel.jar” to “client/lib/serviceModel.jar”
+task copyModelJarToClient(type: Copy,dependsOn:[createModelJar]) {
+    from "${buildDir}/libs/serviceModel.jar"
+    into "../client/lib/"
+    println "copied "+ "${buildDir}/libs/serviceModel.jar" + " into " + "../client/lib/"
+}

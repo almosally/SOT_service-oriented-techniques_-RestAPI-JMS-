@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="435eea95-aa22-4f3f-966f-9ebaef61d464" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/replier">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/requester">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/requester">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/replier">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZZvGcprqcdkOlIvQtYmf2hMlfK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="C:/demo/request-reply" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jms.replier.fx" />
+      <recent name="jms.requester.fx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReplierStore">
+    <configuration name="ReplierStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jms.replier.fx.ReplierStore" />
+      <module name="replier.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jms.replier.fx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequesterControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jms.requester.fx.RequesterControl" />
+      <module name="requester.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jms.requester.fx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="requester [run]" type="GradleRunConfiguration" />
+      <toRun name="replier [run]" type="GradleRunConfiguration" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requester&amp;replier" type="CompoundRunConfigurationType">
+      <toRun name="requester [run]" type="GradleRunConfiguration" />
+      <toRun name="replier [run]" type="GradleRunConfiguration" />
+      <method v="2" />
+    </configuration>
+    <configuration name="replier [run]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/replier" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="requester [run]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/requester" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ReplierStore" />
+      <item itemvalue="Application.RequesterControl" />
+      <item itemvalue="Compound.requester&amp;replier" />
+      <item itemvalue="Gradle.replier [run]" />
+      <item itemvalue="Gradle.requester [run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RequesterControl" />
+        <item itemvalue="Application.ReplierStore" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="435eea95-aa22-4f3f-966f-9ebaef61d464" name="Default Changelist" comment="" />
+      <created>1585059335446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585059335446</updated>
+      <workItem from="1585059337880" duration="108000" />
+      <workItem from="1585059462564" duration="2019000" />
+      <workItem from="1585299864233" duration="2739000" />
+      <workItem from="1586626331998" duration="17626000" />
+      <workItem from="1586684770620" duration="2752000" />
+      <workItem from="1586704991234" duration="1607000" />
+      <workItem from="1586713743935" duration="406000" />
+      <workItem from="1586721780404" duration="1661000" />
+      <workItem from="1586768817248" duration="2307000" />
+      <workItem from="1586772821228" duration="667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="78" key="#Project_Structure" timestamp="1585059344994">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="78" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1585059344994" />
+    <state x="499" y="173" key="#Requester" timestamp="1586629804353">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="499" y="173" key="#Requester/0.0.1563.1002@0.0.1563.1002" timestamp="1586629804353" />
+    <state x="227" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586769440732">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1585060004247" />
+    <state x="227" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1586769440732" />
+    <state x="587" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1586678553729">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="587" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1563.1002@0.0.1563.1002" timestamp="1586678553729" />
+    <state x="305" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586682104719">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="305" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1586682104719" />
+    <state x="512" y="249" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586627687977">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="512" y="249" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1586627687977" />
+    <state x="525" y="280" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585059949376">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="525" y="280" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1585059949376" />
+    <state x="559" y="136" key="FileChooserDialogImpl" timestamp="1586630099343">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="549" y="113" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1585302932567" />
+    <state x="559" y="136" key="FileChooserDialogImpl/0.0.1563.1002@0.0.1563.1002" timestamp="1586630099343" />
+    <state width="1520" height="269" key="GridCell.Tab.0.bottom" timestamp="1586773487292">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1585061482994" />
+    <state width="1520" height="269" key="GridCell.Tab.0.bottom/0.0.1563.1002@0.0.1563.1002" timestamp="1586773487292" />
+    <state width="1520" height="269" key="GridCell.Tab.0.center" timestamp="1586773487291">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1585061482994" />
+    <state width="1520" height="269" key="GridCell.Tab.0.center/0.0.1563.1002@0.0.1563.1002" timestamp="1586773487291" />
+    <state width="1520" height="269" key="GridCell.Tab.0.left" timestamp="1586773487290">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1585061482994" />
+    <state width="1520" height="269" key="GridCell.Tab.0.left/0.0.1563.1002@0.0.1563.1002" timestamp="1586773487290" />
+    <state width="1520" height="269" key="GridCell.Tab.0.right" timestamp="1586773487292">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1585061482994" />
+    <state width="1520" height="269" key="GridCell.Tab.0.right/0.0.1563.1002@0.0.1563.1002" timestamp="1586773487292" />
+    <state x="439" y="122" key="NewModule_or_Project.wizard" timestamp="1585059485381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="439" y="122" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1585059485381" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1585059487852">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1585059487852" />
+    <state x="657" y="328" key="extract.method.dialog" timestamp="1586723174889">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="657" y="328" key="extract.method.dialog/0.0.1563.1002@0.0.1563.1002" timestamp="1586723174889" />
+  </component>
+</project>
